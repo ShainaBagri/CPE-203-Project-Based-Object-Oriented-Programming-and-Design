@@ -1,0 +1,35 @@
+I did not leave any methods in the functions class. I felt that because I could move all the 
+methods into another class, it would be better to do so because the program would be more
+object-oriented based.
+
+getCurrentImage()
+I split the if else statement, placing part of it in the Entity class, and the rest in the Background
+class because when this method is called, the variable is already distinctly known as either 
+an Entity object or a Background object. As such, it is straightforward to simply call the 
+corresponding method: the one in the Entity class for the Entity object and the one in the
+Background class for the Background object.
+
+execute*Activity()
+I placed all the entity specific activity methods in the Entity class because they specify the
+possible actions of each type of entity and what they might do.
+
+transformFull()/transformNotFull()
+I placed these methods in the Entity class because they were specific to the octopus entity
+and control how they react to the world.
+
+nextPosition*()
+I placed these methods in the Entity class because they were specific to the octopus and 
+crab entities, and how they interact with the virtual world.
+
+scheduleActions()
+I placed this method in the Entity class because it allows the program to create a corresponding
+action depending on what the EntityKind is. It also plays a role in regulating how the different
+entities interact with the world.
+Alternatively, this method could be placed in the EventScheduler class because it also controls
+what is being scheduled and and what happens in the virtual world.
+
+nearestEntity()
+I placed this method in the WorldModel class because it has to do with the layout of the virtual
+world and how entities are positioned relative to each other.
+Alternatively, this method could be placed in the Entity class because it also plays a role in how 
+the entities interact with each other.
