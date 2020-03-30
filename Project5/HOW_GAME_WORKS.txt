@@ -1,0 +1,11 @@
+Virtual World Project 5
+CSC 203, Winter 2020
+Prof. Humer
+Created By: Shaina Bagri and Parker Landsman
+
+
+Overall game explanation:
+This game has a person or student as the player.
+The student's goal is to collect the A's that the professor is handing out
+and deliver them to the grade book on the opposite side of the screen.
+The student can only collect one A, and must deliver it to the grade book before being able to collect another A.However, the student also has avoid both the sickness that is chasing it and the F's that are falling down. If the student gets hit by an F or the sickness catches up with them,then they will die and the game is over.
